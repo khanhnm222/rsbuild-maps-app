@@ -2,17 +2,17 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@configs/*": ["src/configs/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@libs/*": ["src/libs/*"],
-      "@store/*": ["src/store/*"],
-      "@providers/*": ["src/providers/*"],
-      "@types/*": ["src/types/*"],
-      "@utils/*": ["src/utils/*"],
-      "@routers/*": ["src/routers/*"]
+      "@root": ["./src/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@libs/*": ["./src/libs/*"],
+      "@store/*": ["./src/store/*"],
+      "@providers/*": ["./src/providers/*"],
+      "@models/*": ["src/models/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@routers/*": ["./src/routers/*"]
     },
     "lib": ["DOM", "ES2020"],
     "jsx": "react-jsx",
